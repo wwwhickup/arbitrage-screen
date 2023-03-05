@@ -1,5 +1,3 @@
-import { ApexStroke } from "./chartType";
-
 const chart: ApexChart = {
   height: 350,
   type: "line",
