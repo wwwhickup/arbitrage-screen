@@ -7,3 +7,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App {
+  @apply bg-bg-primary dark:bg-bg-primary-dark w-full min-h-screen text-[#0f172a] dark:text-slate-400 relative;
+  overflow-x: hidden;
+}
+
+.auth-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
