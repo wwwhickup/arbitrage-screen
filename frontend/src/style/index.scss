@@ -14,8 +14,11 @@
 }
 
 .auth-container {
+  @apply p-8 rounded-xl;
+  background-color: #1e293b;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 500px;
 }
