@@ -1,5 +1,8 @@
-*/node_modules
 */.env
+# compiled output
+*/node_modules
+*/dist
+*/dist-ssr
 
 # Logs
 logs
@@ -10,17 +13,31 @@ logs
 */pnpm-debug.log*
 */lerna-debug.log*
 
-*/dist
-*/dist-ssr
 */*.local
 
 # Editor directories and files
 */.vscode/*
 */!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 */.idea
-*/.DS_Store
 */*.suo
 */*.ntvs*
 */*.njsproj
 */*.sln
 */*.sw?
+*/.project
+*/.classpath
+*/.c9/
+*/*.launch
+*/.settings/
+*/*.sublime-workspace
+
+# OS
+.DS_Store
+*/.DS_Store
+
+# Tests
+*/coverage
+*/.nyc_output
